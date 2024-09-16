@@ -1,7 +1,3 @@
-
-
 export const SmallBanner = () => {
-  return (
-    <div>SmallBanner</div>
-  )
-}
+  return <div>SmallBanner</div>;
+};

@@ -1,21 +1,19 @@
-
-import { Header } from './Header'
-import { Banner } from './Banner'
-import { SmallBanner } from './SmallBanner'
-import { Category } from './Category'
-import { Products } from './Products'
-import { Footer } from './Footer'
+import { Header } from "./Header";
+import { Banner } from "./Banner";
+import { SmallBanner } from "./SmallBanner";
+import { Category } from "./Category";
+import { Products } from "./Products";
+import { Footer } from "./Footer";
 
 export const App = () => {
   return (
     <>
-    <Header />
-    <Banner />
-    <SmallBanner />
-    <Category />
-    <Products />
-    <Footer />
-    
+      <Header />
+      <Banner />
+      <SmallBanner />
+      <Category />
+      <Products />
+      <Footer />
     </>
-  )
-}
+  );
+};

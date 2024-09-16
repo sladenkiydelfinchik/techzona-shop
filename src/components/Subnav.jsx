@@ -1,6 +1,3 @@
-
 export const Subnav = () => {
-  return (
-    <div>Subnav</div>
-  )
-}
+  return <div>Subnav</div>;
+};

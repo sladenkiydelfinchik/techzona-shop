@@ -1,6 +1,3 @@
-
 export const Headertop = () => {
-  return (
-    <div>Headertop</div>
-  )
-}
+  return <div>Headertop</div>;
+};
