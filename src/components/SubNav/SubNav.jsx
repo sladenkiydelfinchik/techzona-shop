@@ -1,3 +1,3 @@
-export const Subnav = () => {
+export const SubNav = () => {
   return <div>Subnav</div>;
 };

@@ -5,7 +5,7 @@ import { Category } from "./Category";
 import { Products } from "./Products";
 import { Footer } from "./Footer";
 
-export const App = () => {
+export const MainPage = () => {
   return (
     <>
       <Header />

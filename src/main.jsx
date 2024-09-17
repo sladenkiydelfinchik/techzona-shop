@@ -1,12 +1,20 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./components/App";
+import { MainPage } from "./components/MainPage";
+import { basePath } from "./shared/BasePath";
 import "./shared/styles/reset.css";
-/**
- * Точка входа в приложение
- */
+import "./shared/styles/static.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: `${basePath}/`,
+    element: <MainPage />,
+  },
+]);
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>
 );
