@@ -1,0 +1,38 @@
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+.inputWrapper {
+    display: flex;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-left: 16px;
+    border-radius: 8px;
+    margin-left: 32px;
+}
+
+.input {
+
+    height: 56px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.search {
+    margin-right: 8px;
+}
+
+.cart {
+    margin-left: 16px;
+}
