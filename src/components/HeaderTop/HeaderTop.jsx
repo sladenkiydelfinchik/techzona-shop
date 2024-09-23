@@ -4,7 +4,7 @@ import { logo, search, cart } from "../../assets";
 export const HeaderTop = () => {
   return (
     <>
-      <div className={styles.wrapper, styles.container}>
+      <div className={`${styles.wrapper} ${styles.container}`}>
         <Link to={"/"}>
         <img src={logo} alt="logo"/>
         </Link>

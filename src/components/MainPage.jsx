@@ -1,5 +1,5 @@
 
-import { Banner } from "./Banner";
+import { Banner } from "./Banner/Banner";
 import { SmallBanner } from "./SmallBanner";
 import { Category } from "./Category";
 import { Products } from "./Products";

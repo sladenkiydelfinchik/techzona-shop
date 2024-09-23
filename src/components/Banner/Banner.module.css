@@ -1,0 +1,51 @@
+.banner {
+    background-color: #211C24;
+    min-height: 584px;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan {
+    color: #FFFFFF;
+    opacity: 50%;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.slogan__main {
+    font-size: 96px;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.slogan__second {
+    font-size: 18px;
+    line-height: 24px;
+    color: #909090;
+    margin-bottom: 24px;
+}
+
+.button {
+    padding: 16px 56px;
+    outline: 1px solid #FFFFFF;
+    align-self: flex-start;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 6px;
+}
+
+.imagewrapper {
+    align-self: flex-end;
+}
