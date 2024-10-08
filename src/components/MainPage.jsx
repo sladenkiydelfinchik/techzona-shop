@@ -1,7 +1,7 @@
 import { Banner } from "./Banner/Banner";
 import { SmallBanner } from "./SmallBanners/SmallBanner";
 import { Category } from "./Category/Category";
-import { Products } from "./Products";
+import { Products } from "./Products/Products";
 import { Footer } from "./Footer";
 import { Header } from "./Header/Header";
 

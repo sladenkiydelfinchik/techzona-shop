@@ -1,4 +1,5 @@
 import styles from "./Category.module.css";
+
 export const Category = () => {
   const categories = [
     {
@@ -33,26 +34,24 @@ export const Category = () => {
         <div className={styles.top}>
           <h2 className={styles.title}>Ищите по категориям</h2>
           <div className={styles.arrowS}>
-            <button
-              aria-label="Previous category"
-              className={styles.arrowButton}
-            >
-              <img loading="lazy" src="" alt="" />
+            <button aria-label="Previous" className={styles.arrowButton}>
+              <img
+                src="/techzona-shop/src/assets/static/ArrowLeft.svg"
+                alt=""
+              />
             </button>
-            <button aria-label="Next category" className={styles.arrowButton}>
-              <img loading="lazy" src="" alt="" />
+            <button aria-label="Next" className={styles.arrowButton}>
+              <img
+                src="/techzona-shop/src/assets/static/ArrowRight.svg"
+                alt=""
+              />
             </button>
           </div>
         </div>
         <div className={styles.categories}>
           {categories.map((category, index) => (
             <div key={index} className={styles.categoryCard}>
-              <img
-                loading="lazy"
-                src={category.icon}
-                alt=""
-                className={styles.categoryIcon}
-              />
+              <img src={category.icon} alt="" className={styles.categoryIcon} />
               <span className={styles.categoryName}>{category.name}</span>
             </div>
           ))}
